@@ -44,7 +44,7 @@ Monitor your OCEAN Mining Pool account and workers directly in Home Assistant.
 5. Optionally adjust the update interval (default: 60 seconds)
 
 ### Example
-- **Username**: `bc1qcnpuc5scg0n4hpwpvalntmg6n0c0349x9jfgcj`
+- **Username**: `bc1qzk8vs4p3skr75nskpqyh4f9l0z3hmqd2u4tvpu`
 - **Update Interval**: `60` seconds
 
 ## Entities Created
@@ -129,13 +129,13 @@ entities:
   - entity: sensor.ocean_bc1q_estimated_total_earn_next_block
     name: Est. Earnings Next Block
   - type: divider
-  - entity: binary_sensor.ocean_s19kpro001_status
+  - entity: binary_sensor.ocean_worker001_status
     name: S19k Pro Status
-  - entity: sensor.ocean_s19kpro001_hashrate_60s
+  - entity: sensor.ocean_worker001_hashrate_60s
     name: S19k Pro Hashrate
-  - entity: binary_sensor.ocean_living_room_mini3_status
+  - entity: binary_sensor.ocean_worker002_status
     name: Living Room Heater Status
-  - entity: sensor.ocean_living_room_mini3_hashrate_60s
+  - entity: sensor.ocean_worker002_hashrate_60s
     name: Living Room Heater Hashrate
 ```
 
